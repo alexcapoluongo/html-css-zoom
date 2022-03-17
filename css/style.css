@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header{
+    width:100%;
+    height:30px;
+    background-color: black;
+    display:flex;
+    justify-content:flex-end
+}
+
+.speaker-view{
+    width:8%;
+    height:30px;
+    background-color: bisque;
+}
+
+.full-screen{
+    width:3%;
+    height:30px;
+    background-color: aquamarine;
+}
+/* MAIN */
+
+/* FOOTER */
