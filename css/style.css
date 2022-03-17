@@ -104,4 +104,50 @@ main{
 footer{
     height:80px;
     background-color: grey;
+    display: flex;
+}
+
+.footer-left{
+    width:15%;
+    height:100%;
+    background-color: blue;
+    display:flex;
+
+}
+
+.footer-left-item{
+    width:50%;
+    height: 100%;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-footer{
+    flex-grow: 1;
+    background-color: red;
+    display:flex;
+    justify-content: center;
+
+}
+
+.main-footer-item{
+    width:60px;
+    height:100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-right{
+    width:10%;
+    height:100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
