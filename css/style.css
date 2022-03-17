@@ -55,11 +55,34 @@ header{
     font-size:1em;
     padding:3px;
     margin-left: 3px;
-
-
-
-
 }
 /* MAIN */
+main{
+    height:calc(100vh - 130px);
+    display:flex;
+    justify-content: center;
+    overflow: auto;
+
+}
+.container{
+    width:90%;
+    background-color: aqua;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.utente{
+    width:20%;
+    height:25%;
+    border: 3px solid black;
+    margin-bottom:10px;
+}
+
 
 /* FOOTER */
+
+footer{
+    height:80px;
+    background-color: grey;
+}
