@@ -121,6 +121,12 @@ footer{
 .left-item i{
     display: flex;
     justify-content: center;
+    font-size: 1.5em;
+}
+
+.left-item p{
+    font-size:.8em;
+    margin-top: 3px;
 }
 
 
@@ -152,6 +158,7 @@ footer{
 
 .main-footer-item p{
     font-size:.8em;
+    margin-top:3px;
 }
 
 .main-footer-item i{
@@ -163,6 +170,15 @@ footer{
     justify-content: space-around;
     flex-direction: row;
     width:80px;
+}
+
+
+.main-footer-item:nth-child(4) .left-item i{
+    color:green;
+}
+
+.main-footer-item:nth-child(4) .right-item i{
+    font-size: 1em;
 }
 
 .footer-right{
